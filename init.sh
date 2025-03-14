@@ -98,4 +98,6 @@ exit_if_error "Failed to install matplotlib"
 pip install scikit-learn
 exit_if_error "Failed to install scikit-learn"
 
+source .venv/bin/activate
+
 print "Setup successful."
